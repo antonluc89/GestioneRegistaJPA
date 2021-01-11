@@ -44,7 +44,7 @@ public class TestGestioneRegistaJPA {
 			Film nuovoFilm = new Film("Pippo", "Cartone", 80);
 			// VADO A COLLEGARLO AL REGISTA APPENA INSERITO
 			nuovoFilm.setRegista(nuovoRegista);
-			// SALVATAGGIO NUOVO FILM
+			// SALVATAGGIO DEL NUOVO FILM
 			filmService.inserisciNuovo(nuovoFilm);
 			System.out.println("Film inserito: " + nuovoFilm);
 
